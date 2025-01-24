@@ -6,10 +6,13 @@ import Doc from './pages/marketing/Doc';
 import Login from './component/Login';
 import SignUp from './component/SignUp';
 
-import Profile from './pages/Dashboard/Profile';
+// import Profile from './pages/Dashboard/Profile';
 import Settings from './pages/Dashboard/Settings';
 import Analytics from './pages/Dashboard/Analytics';
 import Dashboard from './pages/Dashboard/Dashboard'
+import AddData from './pages/Dashboard/AddData';
+import Reports from './pages/Dashboard/Reports';
+import Surveys from './pages/Dashboard/Surveys';
 
 
 // // Dashboard pages
@@ -32,7 +35,10 @@ function App() {
 
           {/* Protected Dashboard Routes */}
           <Route path="/dashboard/" element={<Dashboard/>}>
-            <Route path="profile" element={<Profile/>} />
+            {/* <Route path="profile" element={<Profile/>} /> */}
+            <Route path="reports" element={<Reports/>} />
+            <Route path="survey" element={<Surveys/>} />
+            <Route path="adddata" element={<AddData/>} />
             <Route path="settings" element={<Settings />} />
             <Route path="analytics" element={<Analytics />} />
           </Route>
