@@ -23,7 +23,7 @@ function App() {
 
   return (
     <Router>
-      <div className="w-[100vw] bg-yellow-400 h-[100vh]">
+      <div className="w-[100vw]  h-[100vh]">
         <Navbar/>
         <Routes>
           {/* Public Routes */}
