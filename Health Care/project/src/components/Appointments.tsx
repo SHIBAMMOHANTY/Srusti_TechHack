@@ -5,29 +5,29 @@ const Appointments = () => {
   const appointments = [
     {
       id: 1,
-      doctor: 'Dr. Sarah Johnson',
-      specialty: 'Cardiologist',
-      date: '2024-03-15',
+      doctor: 'Dr. Ramyaranjan Behera',
+      specialty: 'Diagnostic Laproscopy',
+      date: '2025-02-19',
       time: '09:30 AM',
-      location: 'City General Hospital',
+      location: 'Sum Ultimate',
       status: 'upcoming'
     },
     {
       id: 2,
-      doctor: 'Dr. Michael Chen',
-      specialty: 'Neurologist',
-      date: '2024-03-18',
+      doctor: 'Dr. Pradeep Kumar Mishra',
+      specialty: 'Surgeon',
+      date: '2025-02-19',
       time: '02:15 PM',
-      location: 'St. Mary\'s Medical Center',
+      location: 'Kalinga Hospital',
       status: 'upcoming'
     },
     {
       id: 3,
-      doctor: 'Dr. Emily Williams',
-      specialty: 'Pediatrician',
-      date: '2024-03-20',
+      doctor: 'Dr. Archana Samal',
+      specialty: 'Eye Specialist',
+      date: '2025-02-19',
       time: '11:00 AM',
-      location: 'Children\'s Hospital',
+      location: 'Health Care Life Science',
       status: 'upcoming'
     }
   ];

@@ -162,9 +162,9 @@ const Dashboard = () => {
   ];
 
   const mockAppointments = [
-    { id: '1', patientName: 'John Doe', doctorName: 'Dr. Smith', date: '2024-02-15', time: '10:00 AM', status: 'scheduled', type: 'Check-up' },
-    { id: '2', patientName: 'Jane Roe', doctorName: 'Dr. Lee', date: '2024-02-16', time: '11:00 AM', status: 'completed', type: 'Surgery' },
-    { id: '3', patientName: 'Mark Lee', doctorName: 'Dr. Jones', date: '2024-02-17', time: '1:00 PM', status: 'completed', type: 'Consultation' }
+    { id: '1', patientName: 'Shubham Jyoti Pradhan', doctorName: 'Dr. Smita Rani Mohanty', date: '2025-02-15', time: '10:00 AM', status: 'scheduled', type: 'Check-up' },
+    { id: '2', patientName: 'Sanjiba Pradhan', doctorName: 'Dr. Lekhika Mishra', date: '2025-02-16', time: '11:00 AM', status: 'completed', type: 'Surgery' },
+    { id: '3', patientName: 'Subramohan Mangaraj', doctorName: 'Dr. Jayshankar Panda', date: '2025-02-17', time: '1:00 PM', status: 'completed', type: 'Consultation' }
   ];
 
   return (

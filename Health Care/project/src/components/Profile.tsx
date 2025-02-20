@@ -10,14 +10,14 @@ const Profile = () => {
           <div className="absolute -top-16 left-6">
             <div className="w-32 h-32 rounded-full border-4 border-white dark:border-gray-800 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=300&h=300"
+                src="./image.png"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
           <div className="mt-16">
-            <h2 className="text-2xl font-bold dark:text-white">Sarah Anderson</h2>
+            <h2 className="text-2xl font-bold dark:text-white">Shibam Mohanty</h2>
             <p className="text-gray-500 dark:text-gray-400">Patient ID: #123456</p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const Profile = () => {
                     <User size={20} className="text-gray-400" />
                     <input
                       type="text"
-                      value="Sarah Anderson"
+                      value="Shibam Mohanty"
                       className="flex-1 bg-transparent focus:outline-none dark:text-white"
                     />
                   </div>
@@ -50,7 +50,7 @@ const Profile = () => {
                     <Phone size={20} className="text-gray-400" />
                     <input
                       type="tel"
-                      value="+1 (555) 123-4567"
+                      value="+91 8458021651"
                       className="flex-1 bg-transparent focus:outline-none dark:text-white"
                     />
                   </div>
@@ -63,7 +63,7 @@ const Profile = () => {
                     <Mail size={20} className="text-gray-400" />
                     <input
                       type="email"
-                      value="sarah.anderson@example.com"
+                      value="shibam@gmail.com"
                       className="flex-1 bg-transparent focus:outline-none dark:text-white"
                     />
                   </div>
@@ -76,7 +76,7 @@ const Profile = () => {
                     <MapPin size={20} className="text-gray-400" />
                     <input
                       type="text"
-                      value="123 Healthcare St, Medical City"
+                      value="Bhubaneswar,Odisha"
                       className="flex-1 bg-transparent focus:outline-none dark:text-white"
                     />
                   </div>
@@ -92,8 +92,8 @@ const Profile = () => {
             <h3 className="text-xl font-semibold mb-4 dark:text-white">Medical History</h3>
             <div className="space-y-4">
               {[
-                { icon: Heart, title: 'Blood Type', value: 'A+' },
-                { icon: Shield, title: 'Allergies', value: 'Penicillin' },
+                { icon: Heart, title: 'Blood Type', value: 'O+' },
+                { icon: Shield, title: 'Allergies', value: 'None' },
                 { icon: FileText, title: 'Chronic Conditions', value: 'None' }
               ].map((item, index) => (
                 <div key={index} className="flex items-center space-x-3 p-3 border border-gray-200 dark:border-gray-700 rounded-lg">
@@ -135,8 +135,8 @@ const Profile = () => {
             <h3 className="text-xl font-semibold mb-4 dark:text-white">Emergency Contacts</h3>
             <div className="space-y-4">
               {[
-                { name: 'John Anderson', relation: 'Spouse', phone: '+1 (555) 987-6543' },
-                { name: 'Mary Wilson', relation: 'Sister', phone: '+1 (555) 456-7890' }
+                { name: 'Shibam Mohanty', relation: 'Spouse', phone: '+1 (555) 987-6543' },
+                { name: 'Tanmay Kumar Puti', relation: 'Sister', phone: '+1 (555) 456-7890' }
               ].map((contact, index) => (
                 <div key={index} className="p-3 border border-gray-200 dark:border-gray-700 rounded-lg">
                   <div className="flex justify-between items-start">

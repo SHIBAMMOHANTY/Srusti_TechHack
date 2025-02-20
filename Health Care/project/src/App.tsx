@@ -53,7 +53,7 @@ function App() {
       case 'findcare': return <FindCare />;
       case 'messages': return <Messages />;
       case 'settings': return <SettingsPanel />;
-      case 'help': return <Help />;
+      case 'Help': return <Help />;
       default: return <Dashboard />;
     }
   };

@@ -10,25 +10,25 @@ import {
 const FindCare = () => {
   const doctors = [
     {
-      name: 'Dr. Sarah Johnson',
-      specialty: 'Cardiologist',
-      hospital: 'City General Hospital',
+      name: 'Dr. Archana Samal',
+      specialty: 'Eye Specialist',
+      hospital: 'Health Care Life Science',
       rating: 4.8,
       reviews: 127,
       image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300&h=300'
     },
     {
-      name: 'Dr. Michael Chen',
-      specialty: 'Neurologist',
-      hospital: 'St. Mary\'s Medical Center',
+      name: 'Dr. Pradeep Kumar Mishra',
+      specialty: 'Surgeon',
+      hospital: 'Kalinga Hospital',
       rating: 4.9,
       reviews: 184,
       image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=300&h=300'
     },
     {
-      name: 'Dr. Emily Williams',
-      specialty: 'Pediatrician',
-      hospital: 'Children\'s Hospital',
+      name: 'Dr. Ramyaranjan Behera',
+      specialty: 'Diagnostic Laproscopy',
+      hospital: 'Sum Ultimate',
       rating: 4.7,
       reviews: 156,
       image: 'https://images.unsplash.com/photo-1594824476967-48c8b964273f?auto=format&fit=crop&q=80&w=300&h=300'
