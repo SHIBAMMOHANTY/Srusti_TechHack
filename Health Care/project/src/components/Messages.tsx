@@ -5,7 +5,7 @@ const Messages = () => {
   const conversations = [
     {
       id: 1,
-      name: 'Dr. Sarah Johnson',
+      name: 'Dr. Archana Samal',
       lastMessage: 'Your test results look good...',
       time: '10:30 AM',
       unread: 2,
@@ -13,7 +13,7 @@ const Messages = () => {
     },
     {
       id: 2,
-      name: 'Dr. Michael Chen',
+      name: 'Dr. Pradeep Kumar Mishra',
       lastMessage: 'Please schedule a follow-up...',
       time: 'Yesterday',
       unread: 0,
@@ -21,7 +21,7 @@ const Messages = () => {
     },
     {
       id: 3,
-      name: 'Dr. Emily Williams',
+      name: 'Dr. Ramyaranjan Behera',
       lastMessage: 'How are you feeling today?',
       time: 'Yesterday',
       unread: 1,

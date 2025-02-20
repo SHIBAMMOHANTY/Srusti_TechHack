@@ -9,7 +9,7 @@ const Emergency = () => {
           <Phone className="text-red-500" size={24} />
           <div>
             <h3 className="text-lg font-semibold dark:text-white">Emergency Hotline</h3>
-            <p className="text-red-500 text-2xl font-bold">911</p>
+            <p className="text-red-500 text-2xl font-bold">108</p>
           </div>
         </div>
       </div>
@@ -74,21 +74,21 @@ const Emergency = () => {
           <div className="space-y-4">
             {[
               {
-                name: 'City General Hospital',
-                distance: '0.8 km',
-                time: '5 mins',
+                name: 'AIIMS Bhubaneswar',
+                distance: '25 km',
+                time: '45 mins',
                 beds: 12
               },
               {
-                name: 'St. Mary\'s Medical Center',
-                distance: '2.3 km',
-                time: '12 mins',
+                name: 'Sum Hospital',
+                distance: '30 km',
+                time: '60 mins',
                 beds: 8
               },
               {
-                name: 'Memorial Hospital',
-                distance: '3.5 km',
-                time: '15 mins',
+                name: 'Capital Hospital',
+                distance: '35 km',
+                time: '60 mins',
                 beds: 15
               }
             ].map((facility, index) => (
